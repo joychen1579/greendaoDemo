@@ -37,7 +37,8 @@ task clean(type: Delete) {
 如图案例所示：
 ![image.png](https://upload-images.jianshu.io/upload_images/2391256-7a775f3b638dfda0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-###1.3、在需要的模块的build.gradle中添加如下代码
+### 1.3、在需要的模块的build.gradle中添加如下代码
+
 ```
 apply plugin: 'org.greenrobot.greendao'
 
@@ -60,7 +61,8 @@ dependencies {
 案例代码如下图
 ![image.png](https://upload-images.jianshu.io/upload_images/2391256-fda3295aeaa1da69.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-###1.4项目入口代码点Application中添加如下代码
+### 1.4项目入口代码点Application中添加如下代码
+
 ```
 package com.joychen.daomodel.app;
 
@@ -94,9 +96,9 @@ public class App extends Application {
 
 ```
 
-#二、开始写代码
+# 二、开始写代码
 
-###2.1新建实体类
+### 2.1新建实体类
 User：
 ![image.png](https://upload-images.jianshu.io/upload_images/2391256-43f3b895e00df1ed.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 点击编译后，然后会在项目的配制文件中生成如下代码：
@@ -108,7 +110,7 @@ User：
 3：UserDao是跟据User类生成的。
 
 
-#三、调用增删改查：
+# 三、调用增删改查：
 代码比较多，请自行下载Demo查看。
 [请下载此Demo]()
 
