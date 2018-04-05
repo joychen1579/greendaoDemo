@@ -2,6 +2,7 @@
 
 # greendaoDemo
 跟据官方demo写的案例
+此案例地址：https://github.com/joychen1579/greendaoDemo
 
 
 # 一、实现配制步骤
